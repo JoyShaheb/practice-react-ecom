@@ -1,14 +1,16 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import CartPage from "./pages/CartPage";
-import ErrorPage from "./pages/ErrorPage";
-import Home from "./pages/Home";
-import LoginPage from "./pages/LoginPage";
-import OrdersPage from "./pages/OrdersPage";
-import ProductDetails from "./pages/ProductDetails";
-import ProductsPage from "./pages/ProductsPage";
-import ProfilePage from "./pages/ProfilePage";
-import ResetPasswordPage from "./pages/ResetPasswordPage";
-import SignupPage from "./pages/SignupPage";
+import {
+  Home,
+  CartPage,
+  ErrorPage,
+  LoginPage,
+  OrdersPage,
+  ProductDetails,
+  ProductsPage,
+  ProfilePage,
+  ResetPasswordPage,
+  SignupPage,
+} from "./pages";
 import Header from "./components/Header";
 
 function App() {
